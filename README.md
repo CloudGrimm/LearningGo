@@ -6,6 +6,7 @@ The following websites are helpful for beginners;
   3. https://gophercises.com/
   4. https://dave.cheney.net/resources-for-new-go-programmers  
   5. http://www.golangbootcamp.com/book/
+
 TextBooks that are really helpful
 
 A selection of books about Go.
