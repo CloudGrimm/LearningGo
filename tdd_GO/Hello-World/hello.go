@@ -1,5 +1,7 @@
+//packages are a way of grouping up related Go code together
 package main
 
+//With import "fmt" we are importing a package which contains the Println function that we use to print
 import "fmt"
 
 //Constants should improve performance of your application
@@ -10,6 +12,7 @@ const englishHelloPrefix = "Hello, "
 const spanishHelloPrefix = "Hola, "
 const frenchHelloPrefix = "Bonjour, "
 
+//The func keyword is how you define a function with a name and a body
 func Hello(name, language string) string { //this returns a string
 	if name == "" {
 		name = "World"

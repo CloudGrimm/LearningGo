@@ -5,11 +5,13 @@ import "testing"
 /**
 Writing tests
 Writing a test is just like writing a function, with a few rules
-It needs to be in a file with a name like xxx_test.go
-The test function must start with the word Test
-The test function takes one argument only t *testing.T
+	- It needs to be in a file with a name like xxx_test.go
+	- The test function must start with the word Test
+	- The test function takes one argument only t *testing.T
+
 TDD is a skill that needs practice to develop but by being able to
-break problems down into smaller components that you can test you will have a much easier time writing software.
+break problems down into smaller components that you can test you
+will have a much easier time writing software.
 **/
 func TestHello(t *testing.T) {
 
